@@ -48,6 +48,10 @@ This is a FastAPI project that demonstrates how to create a simple RESTful API w
 	```shell
 	uvicorn src.app.main:app --host 0.0.0.0 --port 8000
 
+3. For testing the application:
+	```shell
+	pytest
+
 #### The application will be accessible at http://localhost:8000.
 
 ## Running the FastAPI Application in Docker
